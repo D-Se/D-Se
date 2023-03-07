@@ -1,0 +1,24 @@
+name: UpdateCiteCount
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 0'
+jobs:
+  update_templates:
+    name: "Update Cite count"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Fetching repo contents"
+        uses: actions/checkout@main
+
+      - name: Update README.md
+        run: |
+          cites=$(wget -q http://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=EEE5m-wAAAAJ -O- | grep '"total_citations":' | grep -oe '\([0-9]*\)')
+          sed -i "s/Citations:.*/Citations: $cites/g" README.md
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git diff --quiet && git diff --staged --quiet || git commit -am "updated citation count"
+          git push
