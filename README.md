@@ -8,7 +8,7 @@
      <tr>
        <td><div>
 <a href="https://scholar.google.com/citations?user=EEE5m-wAAAAJ&hl=en&oi=ao"><img alt="https://google.com" src="https://user-images.githubusercontent.com/59521296/222966923-1ee8fc15-39f6-48ff-a19a-5295493191d5.svg" height="20"></a>
-          Citations: 105
+          Citations: 107
           <br>
 <a href="https://stackoverflow.com/users/14853907"><img alt="Stack Exchange reputation" src="https://img.shields.io/stackexchange/stackoverflow/r/14853907?color=orange&label=reputation&logo=stackoverflow"></a>
         </div></td>
