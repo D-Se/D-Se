@@ -11,6 +11,8 @@
           Citations: 107
           <br>
 <a href="https://stackoverflow.com/users/14853907"><img alt="Stack Exchange reputation" src="https://img.shields.io/stackexchange/stackoverflow/r/14853907?color=orange&label=reputation&logo=stackoverflow"></a>
+                     <br>
+<a href="https://www.codewars.com/users/D-Se/badges/micro"><img alt="Codewars" src="https://www.codewars.com/users/D-Se/badges/micro"></a>
         </div></td>
         <td> <div align="center">
 <code><picture><source srcset="https://user-images.githubusercontent.com/59521296/222952825-b95eb292-8f4c-47f8-9595-8244499b2c55.svg#gh-dark-mode-only" media="(prefers-color-scheme: dark)" height="25" width="45"><img height="25" src="https://user-images.githubusercontent.com/59521296/222952848-d3f9f33f-071d-4d65-87c7-6411ab75060f.svg#gh-light-mode-only" media="(prefers-color-scheme: light)"></picture></code>
